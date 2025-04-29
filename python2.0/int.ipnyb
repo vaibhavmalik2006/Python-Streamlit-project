@@ -1,0 +1,18 @@
+import numpy as np
+
+sum = np.add(1,2)
+print(sum)
+arr1 = np.array([1,2,3,4])
+print(arr1)
+print(arr1.shape)
+print(arr1[0],arr1[1])
+print(arr1.reshape(2,2))
+arr2 = np.zeros((2,2))
+print(arr2)
+arr3 = np.once((1,2))
+print(arr3)
+arr4 =np.full((2,2),7)
+print(arr4)
+d = np.eye(2)
+print(d)
+print(arr1[0:4:2])
